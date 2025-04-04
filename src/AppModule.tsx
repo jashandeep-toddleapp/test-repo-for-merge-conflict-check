@@ -23,6 +23,8 @@ export interface UserData {
 
 export type FetchStatus = "idle" | "loading" | "success" | "error";
 
+export type RandomFunc = "1" | "2" | "3" | "4";
+
 // Utility Functions
 export function generateUUID(): string {
   return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
