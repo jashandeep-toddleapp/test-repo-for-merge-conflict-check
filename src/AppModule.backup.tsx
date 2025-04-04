@@ -8,7 +8,6 @@ export const COLOR_PALETTE = {
   primary: "#4287f5",
   secondary: "#42c5f5",
   accent: "#f542a7",
-  background: "#f5f5f5",
   error: "#f54242",
 };
 
