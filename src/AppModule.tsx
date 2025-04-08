@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 // Constants
 export const MAX_RETRY_COUNT = 5;
-export const API_ENDPOINT = "https://api.example.com/v1";
 export const DEFAULT_TIMEOUT = 30000;
 export const COLOR_PALETTE = {
   primary: "#4287f5",
