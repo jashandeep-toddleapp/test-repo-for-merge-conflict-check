@@ -21,6 +21,8 @@ export interface UserData {
   role: "admin" | "user" | "guest";
 }
 
+export type RandomFunc = "1" | "2" | "3" | "4";
+
 export type FetchStatus = "idle" | "loading" | "success" | "error";
 
 // Utility Functions
