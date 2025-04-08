@@ -47,7 +47,7 @@ export const debounce = <F extends (...args: any[]) => any>(
   waitFor: number
 ): ((...args: Parameters<F>) => void) => {
   let timeout: ReturnType<typeof setTimeout> | null = null;
-
+  // this is debounce !
   return (...args: Parameters<F>): void => {
     if (timeout !== null) {
       clearTimeout(timeout);
@@ -69,6 +69,7 @@ export function shuffleArray<T>(array: T[]): T[] {
 export const LoadingSpinner: React.FC = () => {
   return (
     <div className="spinner-container">
+      <h1>hello</h1>
       <div className="spinner"></div>
       <p>Loading...</p>
     </div>
@@ -119,6 +120,7 @@ export const useLocalStorage = <T,>(
 // Sample business logic
 export class DataProcessor {
   private data: number[];
+  private static instance: DataProcessor;
 
   constructor(initialData: number[] = []) {
     this.data = initialData;
