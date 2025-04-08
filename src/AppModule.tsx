@@ -13,13 +13,13 @@ export const COLOR_PALETTE = {
 };
 
 // Types
-export interface UserData {
-  id: string;
-  name: string;
-  email: string;
-  createdAt: Date;
-  role: "admin" | "user" | "guest";
-}
+// export interface UserData {
+//   id: string;
+//   name: string;
+//   email: string;
+//   createdAt: Date;
+//   role: "admin" | "user" | "guest";
+// }
 
 export type RandomFunc = "1" | "2" | "3" | "4";
 
